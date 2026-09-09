@@ -1,12 +1,8 @@
 import './App.css'
+import { CapacityScreen } from './CapacityScreen'
 
 function App() {
-  return (
-    <main>
-      <h1>RigReady</h1>
-      <p>Sling-load calculator</p>
-    </main>
-  )
+  return <CapacityScreen />
 }
 
 export default App
